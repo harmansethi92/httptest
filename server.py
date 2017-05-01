@@ -5,8 +5,8 @@ import time
 import BaseHTTPServer
 from random import randint
 
-HOST_NAME = ''
-PORT_NUMBER = int(sys.argv[1])
+HOST_NAME = '127.0.0.1'
+PORT_NUMBER = 5051 #int(sys.argv[1])
 
 class HiHandler(BaseHTTPServer.BaseHTTPRequestHandler):
     def do_GET(s):
